@@ -1,3 +1,9 @@
+## strategy to reduce parameters
+
+   it was observed that reduction in kernel size acheives the reduction in parameters,
+   reduction in kernel-size from (16x3x3 then 32x3x3) to (10x3x3 then 20x3x3) reduced params from 16.6k to 13.5k
+
+
 ## Epoch-logs
 
 Train on 60000 samples, validate on 10000 samples
