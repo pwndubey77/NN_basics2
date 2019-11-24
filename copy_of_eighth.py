@@ -49,7 +49,7 @@ model.add(Convolution2D(20, 3, 3, activation='relu')) #24
 model.add(BatchNormalization())
 model.add(Dropout(0.1))
 
-model.add(Convolution2D(10, 1, 1, activation='relu')) #22
+model.add(Convolution2D(16, 1, 1, activation='relu')) #22
 
 model.add(MaxPooling2D(pool_size=(2, 2)))#11
 
